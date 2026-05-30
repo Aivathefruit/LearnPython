@@ -107,7 +107,6 @@ class Alchemist:
                 print(f" Новый элемент добавлен в коллекцию!")
             else:
                 print(f"{elem1} + {elem2} — ничего нового не происходит...")
-                # Подсказка: может, уже открыт
                 result_known = self.recipes.get((elem1, elem2))
                 if result_known:
                     print(f"   (Элемент '{result_known}' уже есть в коллекции)")
