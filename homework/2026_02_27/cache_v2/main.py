@@ -64,12 +64,12 @@ def my_multiply(a, b):
 
 
 def main():
-    print("--- Тест 1: Позиционные аргументы (my_sum) ---")
+    print("--- Тест 1: (my_sum) ---")
     print(my_sum(3, 5))
     print(my_sum(3, 5))
     print(my_sum(10, 2))
 
-    print("\n--- Тест 2: Именованные аргументы (my_multiply) ---")
+    print("\n--- Тест 2: (my_multiply) ---")
     print(my_multiply(b=4, a=4))
     print(my_multiply(a=2, b=4))
 
