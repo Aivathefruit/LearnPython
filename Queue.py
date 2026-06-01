@@ -154,7 +154,7 @@ if __name__ == "__main__":
         print(s.pull(), end=" ")
     print(f"\nEmpty? {s.is_empty()}\n")
 
-    print(" \033[31mChecking the deck:\033[0m ")
+    print(" \033[31mChecking the deque:\033[0m ")
     d = Deque()
     for i in range(10):
         d.Rput(i)
